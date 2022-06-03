@@ -7,8 +7,8 @@
 <body>
     <h1><a href="index.html">WEB</a></h1>
     
-    <input type="button" value="night" onclick="
-        if(night) {    
+    <input id="night_day" type="button" value="night" onclick="
+        if(document.qeurySelector( 'night_day' ).value === 'night') {
             document.querySelector('body').style.backgroundColor = 'black';
             document.querySelector('body').style.color = 'white';
         } else {    
