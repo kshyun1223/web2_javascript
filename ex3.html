@@ -8,8 +8,12 @@
     <h1><a href="index.html">WEB</a></h1>
     
     <input type="button" value="night" onclick="
-        document.querySelector('body').style.backgroundColor = 'black';
-        document.querySelector('body').style.color = 'white';
+        if night    
+            document.querySelector('body').style.backgroundColor = 'black';
+            document.querySelector('body').style.color = 'white';
+        else    
+            document.querySelector('body').style.backgroundColor = 'white';
+            document.querySelector('body').style.color = 'black';            
     ">
     <input type="button" value="day" onclick="
         document.querySelector('body').style.backgroundColor = 'white';
