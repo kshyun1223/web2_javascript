@@ -28,8 +28,12 @@
             function sum(left, right) {
                 document.write(left + right + '<br>');
             }
-            sum(2,3);
-            sum(3,4);
+            function sumColorRed(left, right) {
+                document.write('<div style="color: red;">' + left + right + '</div><br>');
+            }
+            sum(2,3);   // 5
+            sumColorRed(2,3);   //5
+            sum(3,4);   // 7
         </script>
         <h2>Return</h2>
     </body>
