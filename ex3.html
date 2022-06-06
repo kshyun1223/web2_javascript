@@ -21,17 +21,17 @@
             function nightDayHandler(self) {
                 var target = document.querySelector('body');
                 if(self.value === 'night') {
-                    BodySetBackgroundColor = 'black';
-                    BodySetColor = 'white';
+                    Body.SetBackgroundColor('black');
+                    Body.SetColor('white');
                     self.value = 'day'
 
-                    LinksSetColor('powderblue')
+                    Links.SetColor('powderblue');
                 } else {
-                    BodySetBackgroundColor = 'white';
-                    BodySetColor('black');
+                    Body.SetBackgroundColor('white');
+                    Body.SetColor('black');
                     self.value = 'night';
 
-                    LinksSetColor('blue');
+                    Links.SetColor('blue');
                 }
             }
         </script>
