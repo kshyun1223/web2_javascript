@@ -4,28 +4,31 @@
         <meta charset="utf-8">
         <title>WEB1 - JavaScript</title>
         <script>
-            function setColor(color) {
+            function LinkSetColor(color) {
                 var alist = document.querySelectorAll('a');
                 var i = 0;
                 while(i < alist.length) { 
                     alist[i].style.color = color;
-                    i - i + 1;
+                    i = i + 1;
                 }
+            }
+            function BodySetColor(color) {
+                document.querySelector('body').style.color = color;
             }
             function nightDayHandler(self) {
                 var target = document.querySelector('body');
                 if(self.value === 'night') {
                     target.style.backgroundColor = 'black';
-                    target.style.color = 'white';
+                    BodySetColor = 'white';
                     self.value = 'day'
 
-                    setColor('powderblue')
+                    LinkSetColor('powderblue')
                 } else {
                     target.style.backgroundColor = 'white';
-                    target.style.color = 'black';
+                    BodySetColor('black');
                     self.value = 'night';
 
-                    setColor('blue');
+                    LinksSetColor('blue');
                 }
             }
         </script>
