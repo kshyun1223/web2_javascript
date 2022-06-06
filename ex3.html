@@ -15,16 +15,19 @@
             function BodySetColor(color) {
                 document.querySelector('body').style.color = color;
             }
+            function BodySetBackgroundColor(color) {
+                document.querySelector('body').style.backgroundColor = color;
+            }
             function nightDayHandler(self) {
                 var target = document.querySelector('body');
                 if(self.value === 'night') {
-                    target.style.backgroundColor = 'black';
+                    BodySetBackgroundColor = 'black';
                     BodySetColor = 'white';
                     self.value = 'day'
 
-                    LinkSetColor('powderblue')
+                    LinksSetColor('powderblue')
                 } else {
-                    target.style.backgroundColor = 'white';
+                    BodySetBackgroundColor = 'white';
                     BodySetColor('black');
                     self.value = 'night';
 
