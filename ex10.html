@@ -28,7 +28,9 @@
         <h2>Property & Method</h2>
         <script>
             coworkers.showAll = function() {
-            
+                for(var key in coworkers) {
+                    document.write(key + ' ： ' + coworkers[key] + '<br>');
+
             }
         </script>    
     </body>
