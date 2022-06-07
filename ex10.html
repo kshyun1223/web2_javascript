@@ -28,8 +28,8 @@
         <h2>Property & Method</h2>
         <script>
             coworkers.showAll = function() {
-                for(var key in coworkers) {
-                    document.write(key + ' ： ' + coworkers[key] + '<br>');
+                for(var key in this) {
+                    document.write(key + '：' + this[key] + '<br>');
                 }
             }
             coworkers.showAll();
