@@ -18,6 +18,9 @@
             function BodySetBackgroundColor(color) {
                 document.querySelector('body').style.backgroundColor = color;
             var Body = {
+                setColor: function(color) {
+                    document.querySelector('body').style.color = color;
+                }
             }
             function nightDayHandler(self) {
                 var target = document.querySelector('body');
