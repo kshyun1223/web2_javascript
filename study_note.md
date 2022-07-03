@@ -190,8 +190,8 @@ X + Y; // 1001
 </body>
 ```
     
-    - 일일이 id 값을 부여하는 대신 자기 자신을 가리키는 this 키워드를 사용한다
-    - 반복적으로 등장하는 querySelector 메소드를 target 변수로 대체한다. 이를 위해 body 태그를 target 변수에 할당하고 여기에 querySelector 메소드를 적용한다.
+ - 일일이 id 값을 부여하는 대신 자기 자신을 가리키는 this 키워드를 사용한다
+ - 반복적으로 등장하는 querySelector 메소드를 target 변수로 대체한다. 이를 위해 body 태그를 target 변수에 할당하고 여기에 querySelector 메소드를 적용한다.
 
 ### 배열
 
@@ -237,7 +237,7 @@ X + Y; // 1001
             }    
             document.write('<li>4</li>');
         </script>
-  </ul>
+    </ul>
 </body>
 ```
 
