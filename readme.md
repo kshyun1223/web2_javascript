@@ -7,5 +7,6 @@
 * HTML
 * CSS
 * Javascript
+  * jQeury
 
 ### 수업의 의의
