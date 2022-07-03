@@ -3,9 +3,9 @@
 
 ```jsx
 <body>
-	<script>
+    <script>
         document.write(내용);
-	</script>
+    </script>
 </body>
 ```
 
@@ -18,9 +18,9 @@
 
 ```jsx
 <body>
-	<input type="button" value="내용" onclick="alert('메시지')">
-	<input type="text" onchange="alert('메시지')">              
-	<input type="text" onkeydown="alert('메시지')">
+    <input type="button" value="내용" onclick="alert('메시지')">
+    <input type="text" onchange="alert('메시지')">              
+    <input type="text" onkeydown="alert('메시지')">
 </body>
 ```
 
@@ -82,12 +82,12 @@ X + Y; // 1001
 
 ```jsx
 <body>
-	<input type="button" value="night" onclick="
-		document.querySelector('body').style.backgroundColor = 'black';
-	    document.querySelector('body').style.color = 'white';
-	">
-	<input type="button" value="day" onclick="
-		document.querySelector('body').style.backgroundColor = 'white';
+    <input type="button" value="night" onclick="
+        document.querySelector('body').style.backgroundColor = 'black';
+        document.querySelector('body').style.color = 'white';
+    ">
+    <input type="button" value="day" onclick="
+        document.querySelector('body').style.backgroundColor = 'white';
         document.querySelector('body').style.color = 'black';
     ">
 </body>
@@ -101,10 +101,10 @@ X + Y; // 1001
 
 ```jsx
 <body>
-	<script>
-		document.write(값===값);
-		document.write(값&lt;값);
-	</script>
+    <script>
+        document.write(값===값);
+        document.write(값&lt;값);
+    </script>
 </body>
 ```
 
@@ -121,9 +121,9 @@ X + Y; // 1001
     
     ```jsx
     <body>
-    	<script>
-    	/*if - true*/
-    		document.write("1");
+        <script>
+        /*if - true*/
+            document.write("1");
             if(true) {
                 document.write("2");
             } else {
@@ -131,15 +131,15 @@ X + Y; // 1001
             }
             document.write("4");
     
-    	/*if - false*/
-    		document.write("1");
-    		if(false) {
-    			document.write("2");
-    		} else {
-    			document.write("3");
-    		}
-    		document.write("4");
-    	</script>
+        /*if - false*/
+            document.write("1");
+            if(false) {
+                document.write("2");
+            } else {
+                document.write("3");
+            }
+            document.write("4");
+        </script>
     </body>
     ```
     
@@ -150,16 +150,16 @@ X + Y; // 1001
 
 ```jsx
 <body>
-	<input id="night_day" type="button" value="night" onclick="
-		if(document.querySelector('#night_day').value === 'night') {
-			document.querySelector('body').style.backgroundColor = 'black';
-			document.querySelector('body').style.color = 'white';
-			document.querySelector('#night_day').value = 'day';
-		} else {
-			document.querySelector('body').style.backgroundColor = 'white';
-			document.querySelector('body').style.color = 'black';
-			document.querySelector('#night_day').value = 'night';
-		}
+    <input id="night_day" type="button" value="night" onclick="
+        if(document.querySelector('#night_day').value === 'night') {
+            document.querySelector('body').style.backgroundColor = 'black';
+            document.querySelector('body').style.color = 'white';
+            document.querySelector('#night_day').value = 'day';
+        } else {
+            document.querySelector('body').style.backgroundColor = 'white';
+            document.querySelector('body').style.color = 'black';
+            document.querySelector('#night_day').value = 'night';
+        }
 </body>
 ```
 
@@ -197,21 +197,21 @@ X + Y; // 1001
 
 ```jsx
 <body>
-	<script>
-	/*배열 생성*/
-		var 배열a = ["항목a", "항목b"];
+    <script>
+    /*배열 생성*/
+        var 배열a = ["항목a", "항목b"];
 
-	/*항목 출력*/
-		document.write(배열a[0]);
-		document.write(배열a[1]);
+    /*항목 출력*/
+        document.write(배열a[0]);
+        document.write(배열a[1]);
 
-	/*항목 수 출력*/
-		document.write(배열a.length);
+    /*항목 수 출력*/
+        document.write(배열a.length);
 
-	/*항목 추가*/
-		배열a.push('항목c')
-		배열a.push('항목d')
-	</script>
+    /*항목 추가*/
+        배열a.push('항목c')
+        배열a.push('항목d')
+    </script>
 </body>
 ```
 
@@ -226,7 +226,7 @@ X + Y; // 1001
 
 ```jsx
 <body>
-	<ul>
+    <ul>
         <script>
             document.write('<li>1</li>');
             var i = 0;
@@ -252,18 +252,18 @@ X + Y; // 1001
 
 ```jsx
 <body>
-	<script>
-	    var 배열a = ['항목a', '항목b', '항목c', '항목d'];
+    <script>
+        var 배열a = ['항목a', '항목b', '항목c', '항목d'];
     </script>
     <ul>
-	    <script>
+        <script>
             var i = 0;
             while(i < 배열a.length) {
                 document.write('<li>' + 배열a[i] + '</li>');
                 i=i + 1;
             }
-		</script>
-	</ul>
+        </script>
+    </ul>
 </body>
 ```
 
@@ -293,7 +293,7 @@ X + Y; // 1001
     
     ```jsx
     <body>
-    	<script>
+        <script>
             function 함수명() {
                 document.write('<li>2-1</li>');
                 document.write('<li>2-2</li>');
@@ -302,7 +302,7 @@ X + Y; // 1001
             함수명(); // 2-1
             document.write('<li>3</li>');
             함수명(); // 2-2
-    	</script>
+        </script>
     </body>
     ```
     
@@ -326,13 +326,13 @@ X + Y; // 1001
     
     ```jsx
     <body> 
-    	<script>
+        <script>
             function 함수명(left, right) {
                 document.write(left + right);
             }
             함수명(2,3); // 5
             함수명(3,4); // 7
-    	</script>
+        </script>
     </body>
     ```
     
@@ -343,7 +343,7 @@ X + Y; // 1001
 
 ```jsx
 <body>
-	<script>
+    <script>
         function 함수명(left, right) {
             return left + right;
         }
@@ -360,7 +360,7 @@ X + Y; // 1001
 
 ```jsx
 <head>
-	<script>
+    <script>
         function LinksSetColor(color) {
             var alist = document.querySelectorAll('a');
             var i = 0;
@@ -398,8 +398,8 @@ X + Y; // 1001
 </head>
 <body>
     <input type="button" value="night" onclick="
-	    nightDayHandler(this);
-	">
+        nightDayHandler(this);
+    ">
 </body>
 ```
 
@@ -414,17 +414,17 @@ X + Y; // 1001
 
 ```jsx
 <body>
-	<script>
-		var 객체명 = {
+    <script>
+        var 객체명 = {
             "키1":"값1",
             "키2":"값2"
-		}
-		document.write(객체명.키1 + "<br>");
-		document.write(객체명.키2 + "<br>");
-		객체명.키3 = "값3";
-		document.write(객체명.키3 + "<br>");
-		coworkers["키4 공백"] = "값4";
-		document.write(객체명["키4 공백"] + "<br>");
+        }
+        document.write(객체명.키1 + "<br>");
+        document.write(객체명.키2 + "<br>");
+        객체명.키3 = "값3";
+        document.write(객체명.키3 + "<br>");
+        coworkers["키4 공백"] = "값4";
+        document.write(객체명["키4 공백"] + "<br>");
     </script>
 </body>
 ```
@@ -457,7 +457,7 @@ X + Y; // 1001
 
 ```jsx
 <body>
-	<script>
+    <script>
         객체명.메소드명 = function() {
             for(var key in this) {
                 document.write(key + ' : ' + this[key] + '<br>');
@@ -465,7 +465,7 @@ X + Y; // 1001
         }
 
         객체명.메소드();
-	</script>
+    </script>
 </body>
 ```
 
@@ -546,7 +546,7 @@ X + Y; // 1001
     
     ```jsx
     <head>
-    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     </head>
     ```
     
@@ -554,17 +554,17 @@ X + Y; // 1001
     
     ```jsx
     var Links = {
-    	setColor: function(color) {
-    		$('a').css('color', color);
-    	}
+        setColor: function(color) {
+            $('a').css('color', color);
+        }
     }
     var Body = {
-    	setColor: function(color) {
-    		$('body').css('color', color);
+        setColor: function(color) {
+            $('body').css('color', color);
         },
-    	setBackgroundColor: function(color) {
-    		$('body').css('backgroundcolor', color);
-    	}
+        setBackgroundColor: function(color) {
+            $('body').css('backgroundcolor', color);
+        }
     }
     ```
     
