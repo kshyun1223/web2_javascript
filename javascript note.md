@@ -160,6 +160,7 @@ X + Y; // 1001
             document.querySelector('body').style.color = 'black';
             document.querySelector('#night_day').value = 'night';
         }
+    ">
 </body>
 ```
 
